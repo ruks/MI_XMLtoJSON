@@ -1,0 +1,8 @@
+version: 1.0
+endpoints:
+  - name: ScienceLabAPI
+    port: 8290
+    type: REST
+    networkVisibility: Public
+    context: /laboratory
+    schemaFilePath: src/main/resources/metadata/ScienceLabAPI_swagger.yaml
